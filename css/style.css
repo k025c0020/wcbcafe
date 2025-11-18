@@ -30,11 +30,16 @@ img {
     text-align: center;
 }
 
+.cover-home{
+    background-image: url("../images/cover-home-s.webp");
+}
+
 /*見出し*/
 .font-english{
     font-family: 'Philosopher', sans-serif;
     font-weight: normal;
 }
+
 .page-title{
     font-size: 3rem;
     text-align: center;
