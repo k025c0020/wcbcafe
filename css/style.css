@@ -19,6 +19,12 @@ img {
     max-width: 100%;
 }
 
+.cover{
+    background-size: cover;
+    background-position: center bottom;
+    height: 800px;
+}
+
 /*レイアウトの設定 */
 .align-center {
     text-align: center;
