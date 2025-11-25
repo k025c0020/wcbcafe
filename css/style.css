@@ -34,6 +34,16 @@ img {
     background-image: url("../images/cover-home-s.webp");
 }
 
+.about {
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+
+.about p{
+    margin-bottom: 3rem;
+}
+
 /*見出し*/
 .font-english{
     font-family: 'Philosopher', sans-serif;
@@ -54,6 +64,32 @@ img {
 
 .logo {
     width: 210px;
+}
+
+.page-title, .heading-large{
+    font-size: 3rem;
+    text-align: center;
+}
+.page-title{
+    margin-top: 2rem;
+    line-height: 1.4;
+}
+.heading-large{
+    margin-bottom: 1rem;
+}
+
+/*ボタンの設定*/
+.btn {
+    display: inline-block;
+    padding: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 4px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #09a;
 }
 
 .main-nav {
